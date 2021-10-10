@@ -43,9 +43,9 @@
     "@stdlib/assert-is-integer": "^0.0.x",
     "@stdlib/assert-is-nonnegative-integer": "^0.0.x",
     "@stdlib/assert-is-positive-integer": "^0.0.x",
+    "@stdlib/assert-is-string": "^0.0.x",
     "@stdlib/assert-is-string-array": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
-    "@stdlib/ndarray-base-buffer-dtype": "^0.0.x",
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
@@ -59,6 +59,7 @@
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-pow": "^0.0.x",
     "@stdlib/math-base-special-sin": "^0.0.x",
+    "@stdlib/ndarray-base-buffer-dtype": "^0.0.x",
     "@stdlib/strided-base-binary": "^0.0.x",
     "@stdlib/strided-base-nullary": "^0.0.x",
     "@stdlib/strided-base-quaternary": "^0.0.x",
