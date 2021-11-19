@@ -43,8 +43,6 @@
     "@stdlib/assert-is-integer": "^0.0.x",
     "@stdlib/assert-is-nonnegative-integer": "^0.0.x",
     "@stdlib/assert-is-positive-integer": "^0.0.x",
-    "@stdlib/assert-is-string": "^0.0.x",
-    "@stdlib/assert-is-string-array": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
     "@stdlib/types": "^0.0.x"
   },
@@ -66,6 +64,7 @@
     "@stdlib/strided-base-quinary": "^0.0.x",
     "@stdlib/strided-base-ternary": "^0.0.x",
     "@stdlib/strided-base-unary": "^0.0.x",
+    "@stdlib/strided-dtypes": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-spec": "5.x.x"
