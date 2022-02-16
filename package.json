@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-dispatch",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Create a strided array function interface which performs multiple dispatch.",
   "license": "Apache-2.0",
   "author": {
