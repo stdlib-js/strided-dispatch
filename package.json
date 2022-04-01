@@ -1,0 +1,29 @@
+{
+  "name": "@stdlib/strided-dispatch",
+  "version": "0.0.0",
+  "description": "Create a strided array function interface which performs multiple dispatch.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/strided-dispatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "strided",
+    "array",
+    "dispatch",
+    "multiple dispatch",
+    "multimethod",
+    "multimethods"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
