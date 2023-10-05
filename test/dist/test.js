@@ -29,7 +29,7 @@ var dispatch = require( './../../dist' );
 
 // FIXTURES //
 
-var fill = require( './../..xtures/fill.js' );
+var fill = require( './../fixtures/fill.js' );
 
 
 // TESTS //
