@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-dispatch/tags). For example,
+
+```javascript
 import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@v0.1.1-deno/mod.js';
 ```
 
@@ -279,7 +284,7 @@ The function accepts the following arguments:
 var unary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary' ).ndarray;
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@v0.1.1-deno/mod.js';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@deno/mod.js';
 
 var types = [ 'float64', 'float64' ];
 
