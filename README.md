@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@deno/mod.js';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@v0.1.1-deno/mod.js';
 ```
 
 #### dispatch( fcns, types, data, nargs, nin, nout )
@@ -279,7 +279,7 @@ The function accepts the following arguments:
 var unary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary' ).ndarray;
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@deno/mod.js';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@v0.1.1-deno/mod.js';
 
 var types = [ 'float64', 'float64' ];
 
