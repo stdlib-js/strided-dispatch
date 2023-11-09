@@ -229,7 +229,7 @@ The function accepts the following arguments:
 
     ```javascript
     var unary = require( '@stdlib/strided-base-unary' );
-    
+
     function foo( x ) {
         return x * 10.0;
     }
@@ -260,7 +260,7 @@ The function accepts the following arguments:
 
     ```javascript
     var unary = require( '@stdlib/strided-base-unary' );
-    
+
     function foo( x ) {
         return x * 10.0;
     }
@@ -394,7 +394,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-dispatch/main/LICENSE
 
-[@stdlib/strided/dtypes]: https://github.com/stdlib-js/stdlib
+[@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes
 
 </section>
 
