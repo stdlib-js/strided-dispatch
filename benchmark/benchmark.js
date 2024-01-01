@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isFunction = require( '@stdlib/assert-is-function' );
 var unary = require( '@stdlib/strided-base-unary' );
 var abs = require( '@stdlib/math-base-special-abs' );
