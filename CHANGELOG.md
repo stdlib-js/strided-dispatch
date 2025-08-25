@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-08-25)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2418246`](https://github.com/stdlib-js/stdlib/commit/241824670528518e87667d83512dab297367e43d) - **docs:** fix lint errors in example code _(by Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 
 </details>
