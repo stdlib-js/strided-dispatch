@@ -43,6 +43,7 @@
     "@stdlib/assert-is-integer": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/assert-is-positive-integer": "^0.2.2",
+    "@stdlib/blas-ext-base-gindex-of-row": "github:stdlib-js/blas-ext-base-gindex-of-row#main",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.4.3",
