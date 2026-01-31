@@ -59,7 +59,7 @@
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-sin": "^0.3.0",
-    "@stdlib/ndarray-base-buffer-dtype": "^0.3.0",
+    "@stdlib/ndarray-base-buffer-dtype": "^0.4.0",
     "@stdlib/strided-base-binary": "^0.3.0",
     "@stdlib/strided-base-nullary": "^0.3.0",
     "@stdlib/strided-base-quaternary": "^0.2.2",
@@ -96,7 +96,6 @@
     "multimethod",
     "multimethods"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
