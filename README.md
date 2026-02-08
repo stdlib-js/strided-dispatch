@@ -41,14 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/strided-dispatch
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@esm/index.mjs';
+var dispatch = require( '@stdlib/strided-dispatch' );
 ```
 
 #### dispatch( fcns, types, data, nargs, nin, nout )
@@ -58,9 +76,9 @@ Returns a strided array function interface which performs multiple dispatch.
 <!-- eslint-disable array-element-newline -->
 
 ```javascript
-import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary@esm/index.mjs';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
+var unary = require( '@stdlib/strided-base-unary' );
+var Float64Array = require( '@stdlib/array-float64' );
+var Float32Array = require( '@stdlib/array-float32' );
 
 function foo( x ) {
     return x * 10.0;
@@ -212,7 +230,7 @@ The function accepts the following arguments:
     <!-- eslint-disable array-element-newline -->
 
     ```javascript
-    import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary@esm/index.mjs';
+    var unary = require( '@stdlib/strided-base-unary' );
 
     function foo( x ) {
         return x * 10.0;
@@ -243,7 +261,7 @@ The function accepts the following arguments:
     <!-- eslint-disable array-element-newline -->
 
     ```javascript
-    import unary from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary@esm/index.mjs';
+    var unary = require( '@stdlib/strided-base-unary' );
 
     function foo( x ) {
         return x * 10.0;
@@ -275,16 +293,11 @@ The function accepts the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-var unary = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-unary' ).ndarray;
-import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-dispatch@esm/index.mjs';
+```javascript
+var unary = require( '@stdlib/strided-base-unary' ).ndarray;
+var abs = require( '@stdlib/math-base-special-abs' );
+var Float64Array = require( '@stdlib/array-float64' );
+var dispatch = require( '@stdlib/strided-dispatch' );
 
 var types = [ 'float64', 'float64' ];
 
@@ -300,10 +313,6 @@ var y = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
 strided( 3, 'float64', x, 1, 2, 'float64', y, 1, 2 );
 console.log( y );
 // => <Float64Array>[ 0.0, 0.0, 3.0, 4.0, 5.0 ]
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -327,7 +336,7 @@ console.log( y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -357,8 +366,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/strided-dispatch.svg
 [npm-url]: https://npmjs.org/package/@stdlib/strided-dispatch
 
-[test-image]: https://github.com/stdlib-js/strided-dispatch/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/strided-dispatch/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/strided-dispatch/actions/workflows/test.yml/badge.svg?branch=v0.2.3
+[test-url]: https://github.com/stdlib-js/strided-dispatch/actions/workflows/test.yml?query=branch:v0.2.3
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/strided-dispatch/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/strided-dispatch?branch=main
@@ -390,7 +399,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-dispatch/main/LICENSE
 
-[@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes/tree/esm
+[@stdlib/strided/dtypes]: https://github.com/stdlib-js/strided-dtypes
 
 </section>
 
