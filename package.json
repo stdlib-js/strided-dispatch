@@ -43,7 +43,7 @@
     "@stdlib/assert-is-integer": "^0.2.3",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
     "@stdlib/assert-is-positive-integer": "^0.2.3",
-    "@stdlib/blas-ext-base-gindex-of-row": "^0.1.0",
+    "@stdlib/blas-ext-base-gindex-of-row": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
